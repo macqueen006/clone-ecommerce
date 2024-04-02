@@ -3,13 +3,13 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     borderWidth: {
-      DEFAULT: '1px',
-      '0': '0',
-      '2': '2px',
-      '3': '3px',
-      '4': '4px',
-      '6': '6px',
-      '8': '8px',
+      DEFAULT: "1px",
+      0: "0",
+      2: "2px",
+      3: "3px",
+      4: "4px",
+      6: "6px",
+      8: "8px",
     },
     extend: {
       spacing: {
@@ -32,15 +32,15 @@ export default {
         "2xl-3xl": "clamp(4rem, 2.7826rem + 6.087vi, 7.5rem)",
       },
       fontSize: {
-        "-2": "clamp(0.5628rem, 0.4803rem + 0.4126vi, 0.8rem)", //9.00px	12.80px
-        "-1": "clamp(0.7502rem, 0.6633rem + 0.4345vi, 1rem)", // 12.00px	16.00px
-        0: "clamp(1rem, 0.913rem + 0.4348vi, 1.25rem)", // 16.00px	20.00px
-        1: "clamp(1.333rem, 1.2532rem + 0.3991vi, 1.5625rem)", // 21.33px	25.00px
-        2: "clamp(1.7769rem, 1.7156rem + 0.3065vi, 1.9531rem)", // 28.43px	31.25px
-        3: "clamp(2.3686rem, 2.3433rem + 0.1266vi, 2.4414rem)", // 37.90px	39.06px
-        4: "clamp(3.0518rem, 3.1941rem + -0.1836vi, 3.1573rem)", // 50.52px	48.83px
-        5: "clamp(3.8147rem, 4.3458rem + -0.6853vi, 4.2087rem)", // 67.34px	61.04px
-        6: "clamp(4.7684rem, 5.9031rem + -1.4641vi, 5.6102rem)", // 89.76px	76.29px
+        "u-xs": "clamp(0.5628rem, 0.4803rem + 0.4126vi, 0.8rem)", //9.00px	12.80px
+        "u-base": "clamp(0.7502rem, 0.6633rem + 0.4345vi, 1rem)", // 12.00px	16.00px
+        "u-sm": "clamp(1rem, 0.913rem + 0.4348vi, 1.25rem)", // 16.00px	20.00px
+        "u-m": "clamp(1.333rem, 1.2532rem + 0.3991vi, 1.5625rem)", // 21.33px	25.00px
+        "u-lg": "clamp(1.7769rem, 1.7156rem + 0.3065vi, 1.9531rem)", // 28.43px	31.25px
+        "u-xl": "clamp(2.3686rem, 2.3433rem + 0.1266vi, 2.4414rem)", // 37.90px	39.06px
+        "u-2xl": "clamp(3.0518rem, 3.1941rem + -0.1836vi, 3.1573rem)", // 50.52px	48.83px
+        "u-3xl": "clamp(3.8147rem, 4.3458rem + -0.6853vi, 4.2087rem)", // 67.34px	61.04px
+        "u-4xl": "clamp(4.7684rem, 5.9031rem + -1.4641vi, 5.6102rem)", // 89.76px	76.29px
       },
     },
   },

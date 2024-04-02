@@ -1,13 +1,20 @@
-const Section = (
- { className,
-  id,
-  customPaddings,
-  children
-}) => {
+
+
+const Section = ({ className, id, customStyle, children }) => {
   return (
-    <section className={`relative max-w-[1440px] mx-auto px-s min-w-[728px] ${className || ""} ${customPaddings || ""}`} id={id}>
-      <div className="mt-s px-m py-2 border border-slate-200">
-      {children}
+    <section id={id} >
+      <div
+        className={`${
+          className || ""
+        } relative z-10 px-s mx-auto max-w-[1440px] min-w-[728px]`}
+      >
+        <div
+          className={`bg-white ${
+            customStyle || "mt-s py-s px-m"
+          } border border-slate-300`}
+        >
+          {children}
+        </div>
       </div>
     </section>
   );
