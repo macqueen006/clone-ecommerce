@@ -11,8 +11,7 @@ const Section = ({ className, id, customStyle, children }) => {
         <div
           className={`bg-white ${
             customStyle || "mt-s py-s px-m"
-          } border border-slate-300`}
-        >
+          } border border-slate-300`}>
           {children}
         </div>
       </div>
