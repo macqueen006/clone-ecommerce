@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -15,7 +16,7 @@ export default {
       spacing: {
         "3xs": "clamp(0.25rem, 0.2283rem + 0.1087vi, 0.3125rem)", //4px 5px
         "2xs": "clamp(0.5rem, 0.4565rem + 0.2174vi, 0.625rem)", // 8px 10px
-        xs: "clamp(0.75rem, 0.6848rem + 0.3261vi, 0.9375rem)", //12px 15px
+        xs: "clamp(0.75rem, 0.6848rem + 0.3261vi, 0.9375rem)", //12px 16px
         s: "clamp(1rem, 0.913rem + 0.4348vi, 1.25rem)", // 16px 20px
         m: "clamp(1.5rem, 1.3696rem + 0.6522vi, 1.875rem)", // 24px 30px
         l: "clamp(2rem, 1.8261rem + 0.8696vi, 2.5rem)", // 32px 40px
@@ -44,5 +45,8 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    // eslint-disable-next-line no-undef
+    require('@tailwindcss/forms')
+  ],
 };

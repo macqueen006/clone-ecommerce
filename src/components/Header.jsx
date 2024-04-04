@@ -57,7 +57,7 @@ const Header = ({ className }) => {
                       <div className="flex-1 h-full text-[14px]">
                         <div className="relative h-full pb-0.5">
                           <input
-                            className="pr-l pl-2xs w-full placeholder:text-slate-300 h-full bg-transparent overflow-hidden text-ellipsis align-middle focus:outline-none"
+                            className="pr-l pl-2xs text-slate-500 w-full placeholder:text-slate-400 h-full bg-transparent overflow-hidden text-ellipsis align-middle focus:ring-0 border-0"
                             placeholder="Enter a keyword to search products"
                           />
                           <BsCamera className="absolute right-[15px] top-[9px] cursor-pointer text-[20px] inline-block hover:text-red-500" />
